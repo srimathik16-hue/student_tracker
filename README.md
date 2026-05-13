@@ -1,16 +1,57 @@
-# React + Vite
+📚 Student Management System (React + Vite)
+📌 Project Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Student Management System is a role-based web application built using React. It allows Staff, Students, and Parents to securely access and manage student information.
 
-Currently, two official plugins are available:
+🚀 Features
+👨‍🏫 Staff Module
+Add new students
+View all student details
+Delete student records
+Manage student data
+🎓 Student Module
+Login using Student ID and Password
+View only their own details
+Secure and private access
+👨‍👩‍👧 Parent Module
+Login using Student ID and Password
+View their child’s academic details
+Restricted access (view only)
+🔐 Authentication System
+Role-based login (Staff / Student / Parent)
+Data stored using localStorage
+Input validation added for secure login
+🛠️ Tech Stack
+React.js
+Vite
+JavaScript (ES6)
+HTML5
+CSS3
+LocalStorage (for data handling)
+React Router DOM
+📂 Project Structure
+src/
+ ├── addstudent.jsx
+ ├── home.jsx
+ ├── stafflogin.jsx
+ ├── studentlogin.jsx
+ ├── parentlogin.jsx
+ ├── viewstudent.jsx
+ ├── App.jsx
+ ├── App.css
+▶️ How to Run Project
+npm install
+npm run dev
+🌐 GitHub Repository
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Student Tracker Project
 
-## React Compiler
+📈 Future Improvements
+Add backend (Node.js + MongoDB)
+Real database authentication
+Password encryption
+Profile photo upload
+Fee payment tracking system
+👩‍💻 Author
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Srimathi K
