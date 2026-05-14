@@ -1,3 +1,4 @@
+import "./App.css";
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -9,12 +10,9 @@ import StaffLogin from "./stafflogin";
 import StudentLogin from "./studentlogin";
 import ParentLogin from "./parentlogin";
 
-import "./App.css";
-
 function App() {
   return (
     <Router>
-
       <Routes>
 
         <Route path="/" element={<Home />} />
@@ -27,7 +25,6 @@ function App() {
         <Route path="/view" element={<ViewStudents />} />
 
       </Routes>
-
     </Router>
   );
 }
